@@ -7,12 +7,12 @@
             
             List<OgrenciAdi> OgrenciListesi = new();
 
-            OgrenciListesi.Add(new OgrenciAdi() { SinifNumarasi = 100, Adi = "Kumru" }); //SiniftaMi = true });
-            OgrenciListesi.Add(new OgrenciAdi() { SinifNumarasi = 120, Adi = "Uğur" });  //SiniftaMi = false});
-            OgrenciListesi.Add(new OgrenciAdi() { SinifNumarasi = 125, Adi = "Nilsu" }); //SiniftaMi = true });
-            OgrenciListesi.Add(new OgrenciAdi() { SinifNumarasi = 110, Adi = "Altan" }); //SiniftaMi = true });
-            OgrenciListesi.Add(new OgrenciAdi() { SinifNumarasi = 113, Adi = "Andaç" }); //SiniftaMi = false});
-            OgrenciListesi.Add(new OgrenciAdi() { SinifNumarasi = 130, Adi = "Bensu" }); // SiniftaMi = false});
+            OgrenciListesi.Add(new OgrenciAdi() { SinifNumarasi = 100, Adi = "Kumru" }); 
+            OgrenciListesi.Add(new OgrenciAdi() { SinifNumarasi = 120, Adi = "Uğur" });  
+            OgrenciListesi.Add(new OgrenciAdi() { SinifNumarasi = 125, Adi = "Nilsu" }); 
+            OgrenciListesi.Add(new OgrenciAdi() { SinifNumarasi = 110, Adi = "Altan" }); 
+            OgrenciListesi.Add(new OgrenciAdi() { SinifNumarasi = 113, Adi = "Andaç" }); 
+            OgrenciListesi.Add(new OgrenciAdi() { SinifNumarasi = 130, Adi = "Bensu" }); 
 
             Console.WriteLine("Sinif Yoklaması Uygulamasına Hoş Geldiniz!");
             Console.WriteLine("İşlem Listesi");
@@ -31,7 +31,7 @@
                 {
                     foreach (var OgrenciAdi in OgrenciListesi)
                     {
-                        Console.WriteLine($"SinifNumarası : {OgrenciAdi.SinifNumarasi}, Adi : {OgrenciAdi.Adi}, SiniftaMi: {OgrenciAdi.SiniftaMi}");
+                        Console.WriteLine($"SinifNumarası : {OgrenciAdi.SinifNumarasi}, Adi : {OgrenciAdi.Adi} ");
                     }
                     Console.WriteLine("---------------------");
                     continue;
